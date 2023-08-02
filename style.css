@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 2em 0 0.5em 0;
+
+}
+#textoAdicionar {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#btn-lista {
+    padding: 0.7em 1em;
+}
+
+.container-texto {
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.lista {
+    margin-top: 20px;
+    
+}
+.lista ul {
+    list-style: none;
+}
+
+.lista ul li {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.atividades {
+    display: flex;
+    justify-content: space-between;
+}
+.modificar-lista button{
+    padding: 3px;
+    margin-left: 10px;
+}
+
