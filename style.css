@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #31098f;
+}
+
+
+.container {
+    background-color: #492597;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 1px 1px 7px 1px rgb(0, 0, 0);
+
+}
+
+h2 {
+    text-align: center;
+    margin: 2em 0 0.5em 0;
+    color: #ffffff;
+
+}
+
+input {
+    width: 20em;
+    border-radius: 4px;
+}
+
+#textoAdicionar {
+    padding: 10px;
+}
+
+
+
+
+#btn-lista {
+    padding: 0.7em 1em;
+}
+
+.container-texto {
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.lista {
+    margin-top: 20px;
+    
+}
+.lista ul {
+    list-style: none;
+}
+
+.lista ul li {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.atividades {
+    display: flex;
+    justify-content: space-between;
+}
+.modificar-lista button{
+    padding: 3px;
+    margin-left: 10px;
+}
+
+#lista-de-tarefa button {
+    padding: 3px;
+    border-radius: 1px;
+}
+
+.barra-elementos {
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    background-color: #361484;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #5c35a9;
+}
